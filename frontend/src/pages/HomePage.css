@@ -1,0 +1,61 @@
+.home-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #c9b27c;
+  background: #fffdf7;
+  max-width: 420px;
+}
+
+.primary-btn {
+  align-self: flex-start;
+  padding: 8px 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #b99a5b;
+  background: #f0dfb6;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #ead19a;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 24px 0;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #b99a5b;
+  background: #f5e7c3;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.empty {
+  margin-top: 24px;
+  font-style: italic;
+  opacity: 0.7;
+}

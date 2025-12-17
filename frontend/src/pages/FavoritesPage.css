@@ -1,0 +1,19 @@
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 900px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  font-family: Georgia, serif;
+}
+
+.error {
+  color: darkred;
+}
